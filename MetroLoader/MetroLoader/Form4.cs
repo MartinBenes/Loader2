@@ -32,6 +32,8 @@ namespace MetroLoader
             InitializeComponent();
         }
 
+        private Form1 otherForm = new Form1();
+
         private void Form4_Load(object sender, EventArgs e)
         {
             webBrowser1.Navigate("http://localhost/loader/group.php?username=" + Properties.Settings.Default.Username);
@@ -91,7 +93,6 @@ namespace MetroLoader
             }
         }
     }
-}
 
 //-----------------------------------------------------
 // Coded by /id/Thaisen! Free loader source
