@@ -25,14 +25,6 @@ namespace MetroLoader
 
         bool admin;
         bool premium;
-        public string fileEncrypt;
-        public string fileDecrypt;
-        public string outputEncrypt;
-        public string outputDecrypt;
-        public int numPass = 10;
-        const int keysize = 256;
-        const string initVector = "Exm4ypIEs2owh8bB";
-        SecureString pwd = new SecureString();
 
 
         public Form4()
