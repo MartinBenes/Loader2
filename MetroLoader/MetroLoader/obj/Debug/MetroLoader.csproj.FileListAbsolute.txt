@@ -1,0 +1,17 @@
+C:\Users\prefo\source\repos\MetroLoader\MetroLoader\bin\Debug\MetroLoader.exe.config
+C:\Users\prefo\source\repos\MetroLoader\MetroLoader\bin\Debug\MetroLoader.exe
+C:\Users\prefo\source\repos\MetroLoader\MetroLoader\bin\Debug\MetroLoader.pdb
+C:\Users\prefo\source\repos\MetroLoader\MetroLoader\bin\Debug\MetroFramework.Design.dll
+C:\Users\prefo\source\repos\MetroLoader\MetroLoader\bin\Debug\MetroFramework.dll
+C:\Users\prefo\source\repos\MetroLoader\MetroLoader\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\prefo\source\repos\MetroLoader\MetroLoader\obj\Debug\MetroLoader.csprojResolveAssemblyReference.cache
+C:\Users\prefo\source\repos\MetroLoader\MetroLoader\obj\Debug\MetroLoader.Form1.resources
+C:\Users\prefo\source\repos\MetroLoader\MetroLoader\obj\Debug\MetroLoader.Properties.Resources.resources
+C:\Users\prefo\source\repos\MetroLoader\MetroLoader\obj\Debug\MetroLoader.csproj.GenerateResource.Cache
+C:\Users\prefo\source\repos\MetroLoader\MetroLoader\obj\Debug\MetroLoader.csproj.CoreCompileInputs.cache
+C:\Users\prefo\source\repos\MetroLoader\MetroLoader\obj\Debug\MetroLoader.exe
+C:\Users\prefo\source\repos\MetroLoader\MetroLoader\obj\Debug\MetroLoader.pdb
+C:\Users\prefo\source\repos\MetroLoader\MetroLoader\obj\Debug\MetroLoader.Form2.resources
+C:\Users\prefo\source\repos\MetroLoader\MetroLoader\obj\Debug\MetroLoader.Form4.resources
+C:\Users\prefo\source\repos\MetroLoader\MetroLoader\obj\Debug\MetroLoader.EnterPassword.resources
+C:\Users\prefo\source\repos\MetroLoader\MetroLoader\obj\Debug\MetroLoader.WrongPwd.resources
