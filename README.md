@@ -6,6 +6,17 @@ By downloading and using the source you agree to the [License](#license) that co
 
 Have some code you wanna add to the repo? Let me know through an email (thaisenbusiness@gmail.com) and I will test it out and add you some credits and maybe let you collab on the repo.
 
+## Screenshots
+
+<p align="center">
+ <img src="https://i.imgur.com/umvcUDj.png">
+</p>
+
+<p align="center">
+ <img src="https://i.imgur.com/odKzp8h.png">
+</p>
+
+
 ## License
 
 This repo is listed with a [MIT license](https://github.com/ThaisenPM/Cheat-Loader/blob/master/LICENSE) which allows this to be used for commercial use, personal use and distribution and allows for modification of the source BUT does NOT allow me to be liable for what you do with the source and does not offer any warranty.
