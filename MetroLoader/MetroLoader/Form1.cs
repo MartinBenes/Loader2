@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,43 +34,27 @@ namespace MetroLoader
         private void Form1_Load(object sender, EventArgs e)
         {
 
+            metroCheckBox1.Checked = true;
+
             var steam = "steam";
             var starget = Process.GetProcessesByName(steam).FirstOrDefault();
 
             hwidstring = HWDI.GetMachineGuid();
 
-            if (Properties.Settings.Default.Checked == true)
-            {
-                metroTextBox1.Text = Properties.Settings.Default.Username;
-                metroTextBox2.Text = Properties.Settings.Default.Password;
-                metroCheckBox1.Checked = Properties.Settings.Default.Checked;
-            }
-            else if (Properties.Settings.Default.Checked == false)
-            {
-                metroTextBox1.Text = String.Empty;
-                metroTextBox2.Text = String.Empty;
-                metroCheckBox1.Checked = false;
-            }
+            metroTextBox1.Text = Properties.Settings.Default.Username;
+            metroTextBox2.Text = Properties.Settings.Default.Password;
 
         }
 
         private void metroButton1_Click(object sender, EventArgs e)
         {
-            webBrowser1.Navigate("http://localhost/loader/check.php?username=" + metroTextBox1.Text + "&password=" + metroTextBox2.Text);
+            webBrowser1.Navigate("http://localhost/check.php?username=" + metroTextBox1.Text + "&password=" + metroTextBox2.Text);
             username = true;
 
-            if (metroCheckBox1.Checked == true)
-            {
-                Properties.Settings.Default.Username = metroTextBox1.Text;
-                Properties.Settings.Default.Password = metroTextBox2.Text;
-                Properties.Settings.Default.Checked = metroCheckBox1.Checked;
-                Properties.Settings.Default.Save();
-            }
-            // Checks if it is not checked to re-write the information that was saved
-            else if (metroCheckBox1.Checked == false)
-            {
-                Properties.Settings.Default.Checked = false;
-            }
+            Properties.Settings.Default.Username = metroTextBox1.Text;
+            Properties.Settings.Default.Password = metroTextBox2.Text;
+            Properties.Settings.Default.Checked = metroCheckBox1.Checked;
+            Properties.Settings.Default.Save();
         }
 
         private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
@@ -86,7 +70,7 @@ namespace MetroLoader
                 {
                     usergroup = true;
                     username = false;
-                    webBrowser2.Navigate("http://localhost/loader/group.php?username=" + metroTextBox1.Text);
+                    webBrowser2.Navigate("http://localhost/group.php?username=" + metroTextBox1.Text);
                 }
                 else if (webBrowser2.DocumentText.Contains("2"))
                 {
@@ -104,7 +88,7 @@ namespace MetroLoader
                 {
                     usergroup = false;
                     hwid = true;
-                    webBrowser3.Navigate("http://localhost/loader/hwid.php?username=" + metroTextBox1.Text + "&hwid=" + hwidstring);
+                    webBrowser3.Navigate("http://localhost/hwid.php?username=" + metroTextBox1.Text + "&hwid=" + hwidstring);
                 }
                 // General statment, if the group isn't in the list, they get thrown this
                 else
@@ -114,6 +98,8 @@ namespace MetroLoader
                 }
             }
         }
+
+        // 355, 218
 
         private void webBrowser3_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
@@ -175,3 +161,16 @@ namespace MetroLoader
         }
     }
 }
+
+//-----------------------------------------------------
+// Coded by /id/Thaisen! Free loader source
+// https://github.com/ThaisenPM/Cheat-Loader-CSGO-2.0
+// Note to the person using this, removing this
+// text is in violation of the license you agreed
+// to by downloading. Only you can see this so what
+// does it matter anyways.
+// Copyright © ThaisenPM 2017
+// Licensed under a MIT license
+// Read the terms of the license here
+// https://github.com/ThaisenPM/Cheat-Loader-CSGO-2.0/blob/master/LICENSE
+//-----------------------------------------------------
