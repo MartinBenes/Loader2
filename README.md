@@ -63,3 +63,5 @@ A: https://community.mybb.com/thread-123597.html ALSO if you wanna be a real mem
 [HazzardEdit](https://www.youtube.com/channel/UCG0LukbgMa6vJkA_JJ4Jepg) for the [HWID creation and encryption code.](https://www.youtube.com/watch?v=M1-pAqPqJcw)
 
 [weakspider](https://www.unknowncheats.me/forum/members/172964.html) for the [Injection method](https://www.unknowncheats.me/forum/c-/213037-x86-manual-map-injection.html)
+
+Decimal: pCoder helped with fixes even though has 0 coding knowledge
