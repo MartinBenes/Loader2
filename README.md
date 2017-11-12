@@ -36,10 +36,6 @@ ___
 
 A: Yes and no. You can make it local only by using a tool such as XAMPP but if you want it to be available for others to use you should get a website. Port forwarding would work too but I advise against it.
 ___
-**Q: Why won't my cheat inject/why are the dlls downloading somewhere else/directory issues**
-
-A: This is a common mistake. The cheat's dll filepath MUST have a trailing \ Meaning you type out the path that you want, then add a \ to the end. (Example of wrong: pszLibFileRemote = "C:\temp\Nova\dll" + filename :::: Example of right: pszLibFileRemote = "C:\temp\Nova\dll\" + filename). That MUST be there for both the injection of the .dll and for the downloading of the .dll.
-
 **Q: How do I make paid usergroups on MyBB?**
 
 A: https://community.mybb.com/thread-123597.html ALSO if you wanna be a real meme and need invite codes: https://community.mybb.com/thread-113141.html
@@ -47,3 +43,5 @@ A: https://community.mybb.com/thread-123597.html ALSO if you wanna be a real mem
 ## Credits
 
 [HazzardEdit](https://www.youtube.com/channel/UCG0LukbgMa6vJkA_JJ4Jepg) for the [HWID creation and encryption code.](https://www.youtube.com/watch?v=M1-pAqPqJcw)
+
+[weakspider](https://www.unknowncheats.me/forum/members/172964.html) for the [Injection method](https://www.unknowncheats.me/forum/c-/213037-x86-manual-map-injection.html)
