@@ -32,7 +32,7 @@ else
 			}
 			else
 			{
-				$sql = "UPDATE mybb_users SET hwid='$hwid' WHERE username='$user'";
+				$sql = "UPDATE ". $tables ." SET hwid='$hwid' WHERE username='$user'";
 				if(mysqli_query($link, $sql))
 				{
 					echo $row['hwid'];
