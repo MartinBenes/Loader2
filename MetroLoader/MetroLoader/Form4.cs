@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -99,23 +99,6 @@ namespace MetroLoader
             var form2 = new Form2();
             form2.Closed += (s, args) => this.Close();
             form2.Show();
-
-            // Decryption start
-
-            string filename = @"‪C:\Users\prefo\Desktop\test-encrypt.txt";
-            if (filename.Equals(""))
-            {
-                MessageBox.Show("File missing");
-            }
-            else
-            {
-                decryptFilePath(filename);
-                EnterPassword enterPass = new EnterPassword();
-                if (enterPass.ShowDialog() == DialogResult.OK)
-                {
-                    pwd = enterPass.getPassword();
-                    decryptFile();
-                }
             }
         }
     }
