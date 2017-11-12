@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -41,18 +41,8 @@ namespace MetroLoader
 
             hwidstring = HWDI.GetMachineGuid();
 
-            if (Properties.Settings.Default.Checked == true)
-            {
-                metroTextBox1.Text = Properties.Settings.Default.Username;
-                metroTextBox2.Text = Properties.Settings.Default.Password;
-                metroCheckBox1.Checked = Properties.Settings.Default.Checked;
-            }
-            else if (Properties.Settings.Default.Checked == false)
-            {
-                metroTextBox1.Text = String.Empty;
-                metroTextBox2.Text = String.Empty;
-                metroCheckBox1.Checked = false;
-            }
+            metroTextBox1.Text = Properties.Settings.Default.Username;
+            metroTextBox2.Text = Properties.Settings.Default.Password;
 
         }
 
@@ -61,18 +51,10 @@ namespace MetroLoader
             webBrowser1.Navigate("http://localhost/loader/check.php?username=" + metroTextBox1.Text + "&password=" + metroTextBox2.Text);
             username = true;
 
-            if (metroCheckBox1.Checked == true)
-            {
-                Properties.Settings.Default.Username = metroTextBox1.Text;
-                Properties.Settings.Default.Password = metroTextBox2.Text;
-                Properties.Settings.Default.Checked = metroCheckBox1.Checked;
-                Properties.Settings.Default.Save();
-            }
-            // Checks if it is not checked to re-write the information that was saved
-            else if (metroCheckBox1.Checked == false)
-            {
-                Properties.Settings.Default.Checked = false;
-            }
+            Properties.Settings.Default.Username = metroTextBox1.Text;
+            Properties.Settings.Default.Password = metroTextBox2.Text;
+            Properties.Settings.Default.Checked = metroCheckBox1.Checked;
+            Properties.Settings.Default.Save();
         }
 
         private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
