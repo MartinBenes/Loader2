@@ -34,6 +34,8 @@ namespace MetroLoader
         private void Form1_Load(object sender, EventArgs e)
         {
 
+            metroCheckBox1.Checked = true;
+
             var steam = "steam";
             var starget = Process.GetProcessesByName(steam).FirstOrDefault();
 
