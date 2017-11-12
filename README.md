@@ -2,11 +2,7 @@
 
 I will not be actively updating this project, but I may bring in some new features from time to time when I am bored and have nothing else to do. If you need support, first read the [FAQ](https://github.com/ThaisenPM/CheatLoader/blob/master/README.md#faq). If you still need help contact me on Discord at Thaisen#1989 or [on my Discord server](https://discord.gg/jBnZvh5)!
 
-By downloading and using the source you agreed to the [License](#license) that comes with the loader.
-
-Do you like what I'm doing with this repo? Wanna show me some love with one click? Why not click that "Star" button up above! It might keep me into this project and keep coming out with new versions for you guys to enjoy with new features you request, better security and overall cleaner code because it's a rats nest right now.
-
-Please read the "known issues" section as it will give some insight to why your loader may not be working. I will try to update it with new information as they become known.
+By downloading and using the source you agree to the [License](#license) that comes with the loader.
 
 Have some code you wanna add to the repo? Let me know through an email (thaisenbusiness@gmail.com) and I will test it out and add you some credits and maybe let you collab on the repo.
 
