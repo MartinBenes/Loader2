@@ -16,6 +16,13 @@ Have some code you wanna add to the repo? Let me know through an email (thaisenb
  <img src="https://i.imgur.com/odKzp8h.png">
 </p>
 
+## SQL Setup For HWID
+
+1. Enter your PHPMyAdmin (Or whatever tool you use for SQL managment) and navigate to your mybb_users.
+
+2. Click on the "Structure" tab at the top of PHPMyAdmin.
+
+3. Now add a new column named "hwid" that is a "varchar" with a max limit of "255"
 
 ## License
 
