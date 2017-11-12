@@ -45,13 +45,19 @@ else
 }
 
 
-//-----------------------------------------//
-//          Thaisen's Loader v2.0          //
-//										   //
-//   Copyright © Tyson Prefontaine-McRae   //
-// 										   //
-// Removing these lines breaks the license //
-//-----------------------------------------//
+
+//-----------------------------------------------------
+// Coded by /id/Thaisen! Free loader source
+// https://github.com/ThaisenPM/Cheat-Loader-CSGO-2.0
+// Note to the person using this, removing this
+// text is in violation of the license you agreed
+// to by downloading. Only you can see this so what
+// does it matter anyways.
+// Copyright © ThaisenPM 2017
+// Licensed under a MIT license
+// Read the terms of the license here
+// https://github.com/ThaisenPM/Cheat-Loader-CSGO-2.0/blob/master/LICENSE
+//-----------------------------------------------------
 ?>
 
 <head>
