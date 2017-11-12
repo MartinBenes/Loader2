@@ -19,7 +19,7 @@ Have some code you wanna add to the repo? Let me know through an email (thaisenb
 
 ## License
 
-This repo is listed with a [MIT license](https://github.com/ThaisenPM/Cheat-Loader/blob/master/LICENSE) which allows this to be used for commercial use, personal use and distribution and allows for modification of the source BUT does NOT allow me to be liable for what you do with the source and does not offer any warranty.
+This repo is listed with a [MIT license](https://github.com/ThaisenPM/Cheat-Loader-CSGO-2.0/blob/master/LICENSE) which allows this to be used for commercial use, personal use and distribution and allows for modification of the source BUT does NOT allow me to be liable for what you do with the source and does not offer any warranty.
 
 ## FAQ
 
