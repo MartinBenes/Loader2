@@ -44,7 +44,7 @@ A: At the time of writing no. But make sure you change the signature of the load
 ___
 **Q: If I am using this, do I have to give you credit?**
 
-A: [The license for the project](https://github.com/ThaisenPM/Cheat-Loader-2.0/blob/master/LICENSE)
+A: [The license for the project](https://github.com/ThaisenPM/Cheat-Loader-CSGO-2.0/blob/master/LICENSE)
 ___
 **Q: Can I use this for a massive P2C?**
 
