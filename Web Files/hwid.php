@@ -46,7 +46,6 @@ else
 		}
 	}
 }
-?>
 
 //-----------------------------------------------------
 // Coded by /id/Thaisen! Free loader source
@@ -60,6 +59,8 @@ else
 // Read the terms of the license here
 // https://github.com/ThaisenPM/Cheat-Loader-CSGO-2.0/blob/master/LICENSE
 //-----------------------------------------------------
+
+?>
 
 <head>
 <title>Checking hwid</title>
