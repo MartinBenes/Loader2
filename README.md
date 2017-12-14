@@ -22,7 +22,21 @@ Have some code you wanna add to the repo? Let me know through an email (thaisenb
 
 2. Click on the "Structure" tab at the top of PHPMyAdmin.
 
-3. Now add a new column named "hwid" that is a "varchar" with a max limit of "255"
+3. Now add a new column named "hwid" that is a "varchar" with a max limit of "255".
+
+## Web Files Setup
+
+1. Upload all of your web files.
+
+2. Change the settings in the "config.ini" and that's all.
+
+## Loader Form Files
+
+1. Change all of the links in Form1 to match your website.
+
+2. Go to Form3 and change the file deletion string.
+
+3. Goto Form4 and change all of the links and file paths.
 
 ## License
 
