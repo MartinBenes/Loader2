@@ -22,17 +22,17 @@ Have some code you wanna add to the repo? Let me know through an email (thaisenb
 
 2. Click on the "Structure" tab at the top of PHPMyAdmin.
 
-3. Now add a new column named "hwid" that is a "varchar" with a max limit of "255".
+3. Now add a new column named `hwid` that is a `varchar` with a max limit of `255`.
 
 ## Web Files Setup
 
 1. Upload all of your web files.
 
-2. Change the settings in the "config.ini" and that's all.
+2. Change the settings in the `config.ini` and that's all.
 
 ### Anti-Leak Instructions By bobbyobrien44
 
-Example User-Agent String: "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Sleipnir/2.8.1"
+Example User-Agent String: `Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Sleipnir/2.8.1`
 
 1. Create a directory on your webserver to put your DLL files into.
 
