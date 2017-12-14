@@ -12,7 +12,7 @@ This loader is in C# meaning it is quite easy to expand upon. It has multiple ch
 
 ### Things I recommend to add
 
-Add some junk code to your injection library or preferably find another library to use. Add dll encryption and decryption. Have it clear the process memory after injection. Add some functions to now allow hooking into the process.
+Add some junk code to your injection library or preferably find another library to use. Add dll encryption and decryption. Have the loader ONLY decrypt to the process memory, not to the system. Have it clear the process memory after injection. Add some functions to now allow hooking into the process.
 
 ## Screenshots
 
