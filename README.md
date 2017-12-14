@@ -6,6 +6,14 @@ By downloading and using the source you agree to the [License](#license) that co
 
 Have some code you wanna add to the repo? Let me know through an email (thaisenbusiness@gmail.com) and I will test it out and add you some credits and maybe let you collab on the repo.
 
+## What does this loader offer
+
+This loader is in C# meaning it is quite easy to expand upon. It has multiple cheat versions that are dependant on the MyBB user groups. It has a DLL injection method for x86 only, so if you're using x64 then do not use this loader. 
+
+### Things I recommend to add
+
+Add some junk code to your injection library or preferably find another library to use. Add dll encryption and decryption. Have it clear the process memory after injection. Add some functions to now allow hooking into the process.
+
 ## Screenshots
 
 <p align="center">
