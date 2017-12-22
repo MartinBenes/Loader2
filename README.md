@@ -39,7 +39,7 @@ Add some junk code to your injection library or preferably find another library 
 2. Change the settings in the `config.ini` and that's all.
 
 
-### Anti-Leak Instructions By bobbyobrien44
+### Anti-Leak Instructions
 
 1. Create a directory on your webserver to put your DLL files into.
 
