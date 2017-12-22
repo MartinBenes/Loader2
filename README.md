@@ -38,12 +38,12 @@ Add some junk code to your injection library or preferably find another library 
 
 2. Change the settings in the `config.ini` and that's all.
 
-### Anti-Leak Instructions
 
+### Anti-Leak Instructions By bobbyobrien44
 
 1. Create a directory on your webserver to put your DLL files into.
 
-2. Change lines 79 and 86 to correspond to the new path.
+2. hange lines 79 and 86 to correspond to the new path.
 
 3. Create a .htaccess file inside the directory.
 
@@ -57,6 +57,7 @@ Add some junk code to your injection library or preferably find another library 
     	Allow from env=good_bot
     </FilesMatch>
 ```
+
 
 This will give a `403 Forbidden` error to any bot/crawler/human who tries to access the DLL that is not running `CustomUseragentString`. The User-Agent can be spoofed giving anyone the ability to brute force. But if you create a longer string using some password generator, it will be harder.
 
