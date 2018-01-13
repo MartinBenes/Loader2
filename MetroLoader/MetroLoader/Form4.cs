@@ -75,14 +75,16 @@ namespace MetroLoader
             if (metroRadioButton1.Checked == true) // Premium
             {
                 WebClient wb = new WebClient();
-                wb.Headers.Add("User-Agent", "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.33 Safari/537.36");
+                wb.Headers.Add("User-Agent", "CustomStringHere");
+                System.IO.Directory.CreateDirectory("C:\\Temp\\");
                 wb.DownloadFile("http://localhost/dlls/premium.dll", "C:\\Temp\\cheat.dll");
             }
 
             if (metroRadioButton2.Checked == true) // Developer
             {
                 WebClient wb = new WebClient();
-                wb.Headers.Add("User-Agent", "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.33 Safari/537.36");
+                wb.Headers.Add("User-Agent", "CustomStringHere");
+                System.IO.Directory.CreateDirectory("C:\\Temp\\");
                 wb.DownloadFile("http://localhost/dlls/admin.dll", "C:\\Temp\\cheat.dll");
             }
 

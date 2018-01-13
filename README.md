@@ -38,9 +38,8 @@ Add some junk code to your injection library or preferably find another library 
 
 2. Change the settings in the `config.ini` and that's all.
 
-### Anti-Leak Instructions By bobbyobrien44
 
-Example User-Agent String: `Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Sleipnir/2.8.1`
+### Anti-Leak Instructions
 
 1. Create a directory on your webserver to put your DLL files into.
 
@@ -51,7 +50,7 @@ Example User-Agent String: `Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) S
 4. Make the .htaccess with the following code.
 
 ```
-    SetEnvIfNoCase User-Agent "^Sleipnir/2.8.1" good_bot
+    SetEnvIfNoCase User-Agent "CustomUseragentString" good_bot
     <FilesMatch ".dll">
     	Order Deny,Allow
     	Deny from All
@@ -59,7 +58,8 @@ Example User-Agent String: `Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) S
     </FilesMatch>
 ```
 
-This will give a `403 Forbidden` error to any bot/crawler/human who tries to access the DLL that is not a Sleipnir/2.8.1. The User-Agent can be spoofed giving anyone the ability to brute force. But if you make it more specific such as: `"^(compatible; MSIE 6.0; Windows NT 5.1) Sleipnir/2.8.1"` it will be harder.
+
+This will give a `403 Forbidden` error to any bot/crawler/human who tries to access the DLL that is not running `CustomUseragentString`. The User-Agent can be spoofed giving anyone the ability to brute force. But if you create a longer string using some password generator, it will be harder.
 
 ## Loader Form Files
 
@@ -114,3 +114,5 @@ A: https://community.mybb.com/thread-123597.html ALSO if you wanna be a real mem
 [weakspider](https://www.unknowncheats.me/forum/members/172964.html) for the [Injection method](https://www.unknowncheats.me/forum/c-/213037-x86-manual-map-injection.html)
 
 Decimal: pCoder helped with fixes even though has 0 coding knowledge
+
+Storm: More secure with .htaccess and fixed C:\\Temp\\ on Windows 10 where the Temp directory is in AppData.
