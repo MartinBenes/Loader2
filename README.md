@@ -43,7 +43,7 @@ Add some junk code to your injection library or preferably find another library 
 
 1. Create a directory on your webserver to put your DLL files into.
 
-2. hange lines 79 and 86 to correspond to the new path.
+2. Change lines 79 and 86 to correspond to the new path.
 
 3. Create a .htaccess file inside the directory.
 
